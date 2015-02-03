@@ -12,6 +12,9 @@
 			dataType: "text",
 			success: function (result) {
 				$("#test").text(result);
+			},
+			error: function () {
+				alert('Make sure resource is available i.e.: "/Resources/Countries.txt"');
 			}
 		});
 	};

@@ -20,7 +20,9 @@
 			<div id="fromFile"></div>
 			<textarea id="test" rows="10" cols="15"></textarea>
 		</div>
-		<div class="box3"></div>
+		<div class="box3">
+			<p>Today's date is:  <%= System.DateTime.Now().ToShortDateString()%></p>
+		</div>
 		<span class="stretch"></span>
 	</div>
 	<!-- my jQuery reference should be here //in theory// but it will not work as is => find it why -->

@@ -4,6 +4,7 @@
 	<title> VS2012</title>
 	<link rel="stylesheet" href="CSS/myCss.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	<script src="Scripts/jsScript.js"></script>
 </head>
 <body>
